@@ -1,6 +1,6 @@
 # Sheraz's GitHub Portfolio
 
-Welcome to my GitHub portfolio! I'm Sheraz, a passionate software engineer with expertise in Ruby on Rails, HTML, CSS, JavaScript, jQuery, Bootstrap, Font Awesome, PostgreSQL, SASS, and AWS. This repository showcases some of my projects and contributions in the field of web development.
+Welcome to my GitHub portfolio! I'm Sheraz, a passionate software engineer with expertise in Ruby on Rails, HTML, CSS, JavaScript, Node, Angular, PHP, Python, MongoDB, MySQL, jQuery, Bootstrap, Font Awesome, PostgreSQL, SASS, and AWS. This repository showcases some of my projects and contributions in the field of web development.
 
 ## Projects
 
@@ -33,6 +33,9 @@ Please visit the public repositories to view the specific changes and contributi
 - MongoDB
 - Angular
 - Node
+- Python
+- PHP
+- Laravel
 - Ruby
 - Ruby on Rails
 - Font Awesome
@@ -40,7 +43,7 @@ Please visit the public repositories to view the specific changes and contributi
 
 ## Contact
 
-If you have any questions, suggestions, or would like to collaborate on a project, feel free to reach out to me via email at [your-email@example.com] or connect with me on [LinkedIn](https://www.linkedin.com/in/sherazp995/).
+If you have any questions, suggestions, or would like to collaborate on a project, feel free to reach out to me via email at [sherazp995@gmail.com] or connect with me on [LinkedIn](https://www.linkedin.com/in/sherazp995/).
 
 I look forward to connecting with fellow developers and exploring new opportunities.
 
