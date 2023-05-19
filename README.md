@@ -6,7 +6,9 @@ Welcome to my GitHub portfolio! I'm Sheraz, a passionate software engineer with 
 
 1. **Final Year Project Management System** - It's my final year project. It is built in MEAN stack. Everything in this project from design to development is done by me.
 
-2. **Website Scrapping** - This is a custom project for website scrapping. It is used to get the required data from specific websites. It is also used for automation purposes
+2. **Website Scrapping** - This is a custom project for website scrapping. It is used to get the required data from specific websites. It is also used for automation purposes.
+
+3. **Voting System** - This is a custom project for voting website. It is an online voting system built in php and mysql.
 
 Feel free to explore each public project in detail by visiting their respective repositories.
 
