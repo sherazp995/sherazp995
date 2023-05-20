@@ -1,4 +1,4 @@
-# Sheraz's GitHub Portfolio
+# Hi I'm Sheraz!
 
 Welcome to my GitHub portfolio! I'm Sheraz, a passionate software engineer with expertise in Ruby on Rails, HTML, CSS, JavaScript, Node, Angular, PHP, Python, MongoDB, MySQL, jQuery, Bootstrap, Font Awesome, PostgreSQL, SASS, and AWS. This repository showcases some of my projects and contributions in the field of web development.
 
@@ -55,3 +55,6 @@ Sheraz
 sherazp995/sherazp995 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+
+  ![Snake animation](https://github.com/sherazp995/sherazp995/blob/output/github-contribution-grid-snake.svg)
