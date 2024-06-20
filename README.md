@@ -1,4 +1,4 @@
-# Hi I'm Sheraz!
+# Hi I'm Sheraz
 
 Welcome to my GitHub portfolio! I'm Sheraz, a passionate software engineer with expertise in Ruby on Rails, HTML, CSS, JavaScript, Node, Angular, PHP, Python, MongoDB, MySQL, jQuery, Bootstrap, Font Awesome, PostgreSQL, SASS, and AWS. This repository showcases some of my projects and contributions in the field of web development.
 
@@ -41,9 +41,10 @@ Please visit the public repositories to view the specific changes and contributi
 - Font Awesome
 - AWS
 
-## Contact 
-<div> 
-  <a href="https://www.linkedin.com/in/sherazp995" target="_blank"><img src="https://github.com/sherazp995/sherazp995/assets/68340980/c79187e2-4ec6-4f5d-a4de-0b018589a0e1" width="50px" style="border-radius: 10px;" target="_blank"></a> 
+## Contact
+
+<div>
+  <a href="https://www.linkedin.com/in/sherazp995" target="_blank"><img src="https://github.com/sherazp995/sherazp995/assets/68340980/c79187e2-4ec6-4f5d-a4de-0b018589a0e1" width="50px" style="border-radius: 10px;" target="_blank"></a>
   <a href="https://twitter.com/sherazprince15" target="_blank"><img src="https://github.com/sherazp995/sherazp995/assets/68340980/96bf541a-6288-4bc2-9886-ea663353ae6f" width="50px" style="border-radius: 10px;" target="_blank"></a>
   <a href="https://www.instagram.com/sherazp995" target="_blank"><img src="https://github.com/sherazp995/sherazp995/assets/68340980/a9dea49e-dfa3-4bee-b37e-b7d250047c8b" width="50px" style="border-radius: 10px;" target="_blank"></a>
   <a href="https://www.facebook.com/sherazp995" target="_blank"><img src="https://github.com/sherazp995/sherazp995/assets/68340980/1e942edd-a387-4373-81ba-4a551ad83bfd" width="50px" style="border-radius: 10px;" target="_blank"></a>
