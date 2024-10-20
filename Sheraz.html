@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sheraz CV</title>
+    <style>
+      body {
+        background: rgb(204, 204, 204);
+        font-family: Arial, sans-serif;
+        margin: 0 auto;
+        padding: 0;
+        width: 21cm;
+      }
+
+      page {
+        background: white;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0.5cm;
+        position: relative;
+      }
+
+      page[size="A4"] {
+        width: 21cm;
+        height: 29.7cm;
+      }
+
+      @page {
+        size: 21cm 29.7cm;
+        margin: 0mm;
+      }
+
+      .header {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #f1f1f1;
+      }
+
+      .header h1 {
+        font-size: 24px;
+        margin-bottom: 5px;
+      }
+
+      .header p {
+        font-size: 16px;
+        color: #888;
+      }
+
+      .content {
+        padding: 20px;
+      }
+
+      section {
+        margin-bottom: 20px;
+      }
+
+      section h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      .experience ul,
+      .education ul,
+      .skills ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .experience li,
+      .education li {
+        margin-bottom: 10px;
+      }
+
+      .experience h3,
+      .education h3 {
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <page size="A4">
+      <header class="header">
+        <h1>Your Name</h1>
+        <p>Your Title | Your Email | Your Phone Number</p>
+      </header>
+
+      <main class="content">
+        <section class="about-me">
+          <h2>About Me</h2>
+          <a href="#">
+            A brief summary of your skills and experience. Highlight your career
+            goals and what makes you a valuable asset.
+          </a>
+        </section>
+
+        <section class="experience">
+          <h2>Experience</h2>
+          <ul>
+            <li>
+              <h3>Company Name - Job Title (Dates of Employment)</h3>
+              <ul>
+                <li>Key responsibility or achievement 1</li>
+                <li>Key responsibility or achievement 2</li>
+                <li>Key responsibility or achievement 3</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section class="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              <h3>Degree Name - Institution Name (Graduation Year)</h3>
+              <p>(Optional: Include relevant coursework or achievements)</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Skill 3</li>
+          </ul>
+        </section>
+      </main>
+    </page>
+  </body>
+</html>
