@@ -52,8 +52,7 @@ I contribute features across a startup's Rails/Next.js product cluster — an ag
 ## 📊 GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sherazp995&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sherazp995&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=html,css" alt="top langs">
+  <img src="https://raw.githubusercontent.com/sherazp995/sherazp995/master/github-stats.svg" alt="Sheraz Aurang Zaib — GitHub stats" width="820">
 </p>
 
 ---

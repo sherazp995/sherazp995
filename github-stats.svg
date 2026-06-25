@@ -1,0 +1,53 @@
+<svg width="840" height="250" viewBox="0 0 840 250" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <radialGradient id="g" cx="88%" cy="8%" r="70%">
+      <stop offset="0%" stop-color="#e8b45c" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#e8b45c" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="bar"><rect x="32" y="200" width="776" height="14" rx="7"/></clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="839" height="249" rx="16" fill="#13110d" stroke="#e8b45c" stroke-opacity="0.22"/>
+  <rect x="0.5" y="0.5" width="839" height="249" rx="16" fill="url(#g)"/>
+
+  <!-- header -->
+  <text x="32" y="44" fill="#f0ebe3" font-size="22" font-weight="700">Sheraz Aurang Zaib</text>
+  <text x="32" y="68" fill="#a39d8f" font-size="13.5" font-family="'JetBrains Mono', monospace">github.com/sherazp995 · full-stack engineer · Rails + TypeScript</text>
+  <line x1="32" y1="84" x2="808" y2="84" stroke="#f0ebe3" stroke-opacity="0.08"/>
+
+  <!-- stat tiles -->
+  <g text-anchor="middle">
+    <text x="129" y="132" fill="#e8b45c" font-size="34" font-weight="700">24</text>
+    <text x="129" y="154" fill="#a39d8f" font-size="12.5">public repos</text>
+
+    <text x="323" y="132" fill="#e8b45c" font-size="34" font-weight="700">2020</text>
+    <text x="323" y="154" fill="#a39d8f" font-size="12.5">on GitHub since</text>
+
+    <text x="517" y="132" fill="#e8b45c" font-size="34" font-weight="700">1</text>
+    <text x="517" y="154" fill="#a39d8f" font-size="12.5">language created</text>
+
+    <text x="711" y="132" fill="#e8b45c" font-size="34" font-weight="700">8</text>
+    <text x="711" y="154" fill="#a39d8f" font-size="12.5">merged OSS PRs</text>
+  </g>
+
+  <!-- languages -->
+  <text x="32" y="190" fill="#a39d8f" font-size="12" font-family="'JetBrains Mono', monospace">languages I build in</text>
+  <g clip-path="url(#bar)">
+    <rect x="32"  y="200" width="217" height="14" fill="#CC342D"/>
+    <rect x="249" y="200" width="202" height="14" fill="#3178C6"/>
+    <rect x="451" y="200" width="171" height="14" fill="#DEA584"/>
+    <rect x="622" y="200" width="70"  height="14" fill="#00ADD8"/>
+    <rect x="692" y="200" width="62"  height="14" fill="#3776AB"/>
+    <rect x="754" y="200" width="54"  height="14" fill="#777BB4"/>
+  </g>
+
+  <!-- legend -->
+  <g font-size="12.5" fill="#cabfa8">
+    <circle cx="38"  cy="235" r="5" fill="#CC342D"/><text x="50"  y="239">Ruby</text>
+    <circle cx="150" cy="235" r="5" fill="#3178C6"/><text x="162" y="239">TypeScript</text>
+    <circle cx="300" cy="235" r="5" fill="#DEA584"/><text x="312" y="239">Rust</text>
+    <circle cx="400" cy="235" r="5" fill="#00ADD8"/><text x="412" y="239">Go</text>
+    <circle cx="470" cy="235" r="5" fill="#3776AB"/><text x="482" y="239">Python</text>
+    <circle cx="580" cy="235" r="5" fill="#777BB4"/><text x="592" y="239">PHP</text>
+  </g>
+</svg>
