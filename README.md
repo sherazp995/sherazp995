@@ -1,79 +1,61 @@
-# Hi I'm Sheraz
+<h1 align="center">Sheraz Aurang Zaib</h1>
 
-Welcome to my GitHub portfolio! I'm Sheraz, a passionate software engineer with expertise in Ruby on Rails, HTML, CSS, JavaScript, Node, Angular, PHP, Python, MongoDB, MySQL, jQuery, Bootstrap, Font Awesome, PostgreSQL, SASS, and AWS. This repository showcases some of my projects and contributions in the field of web development.
+<p align="center">
+  <b>Full-Stack Software Engineer — Ruby on Rails + TypeScript</b><br>
+  I build developer tools and ship full-stack products end to end: backend, frontend, and deploy.
+</p>
 
-## Projects
+<p align="center">
+  <a href="https://www.linkedin.com/in/sherazp995"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:sherazp995@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Lahore,%20PK-open%20to%20remote-2ea44f?style=flat" alt="Location">
+</p>
 
-1. **Final Year Project Management System** - It's my final year project. It is built in MEAN stack. Everything in this project from design to development is done by me.
+---
 
-2. **Website Scrapping** - This is a custom project for website scrapping. It is used to get the required data from specific websites. It is also used for automation purposes.
+🔭 **Creator of [Ruxen](https://github.com/ruxen-lang/ruxen)** — a compiled, statically-typed programming language that fuses Ruby's syntax with Rust's ownership model (no GC, native binaries).
 
-3. **Voting System** - This is a custom project for voting website. It is an online voting system built in php and mysql.
+I work mostly in **Ruby on Rails** and **TypeScript**, and I'm just as comfortable dropping into systems work (Rust, compilers) and AI/LLM tooling. I like building things that are hard to get right — language type-checkers, concurrency-safe systems, and tools other developers actually use.
 
-Feel free to explore each public project in detail by visiting their respective repositories.
+## 🚀 Featured work
 
-## Contributions
+### [Ruxen](https://github.com/ruxen-lang/ruxen) · a programming language, built from scratch
+A compiled, statically-typed language (Ruby-style syntax, Rust-style ownership, no garbage collector). A **~145K-line Rust compiler** with a full pipeline — lexer → bidirectional type inference → **ownership/borrow checker** → SSA-style MIR → **dual Cranelift + LLVM-18 backends** — plus an LSP, a JIT REPL, and a 31-module standard library written in the language itself. Dogfooded by three frameworks: a GUI engine ([canvas](https://github.com/ruxen-lang/canvas)), a reactive UI layer ([quiver](https://github.com/ruxen-lang/quiver)), and an async web server ([rondo](https://github.com/ruxen-lang/rondo)).
+<br>`Rust` · `LLVM` · `Cranelift` · `compilers` · `~2,000 tests`
 
-I have contributed to various private projects, including:
+### braceful · a shipped, offline JSON dev tool — [live demo →](https://braceful.vercel.app)
+A privacy-first browser extension that **repairs broken/truncated JSON** and renders **~100 MB files** in a virtualized tree via a **streaming tokenizer that runs entirely in a Web Worker** — so the tab never freezes and your data never leaves your machine. ~45K LOC TypeScript across the extension, a Cloudflare Workers billing backend, and a marketing site, backed by **1,400+ tests** and a perf-gated CI pipeline. *(Solo build; source private.)*
+<br>`TypeScript` · `Web Workers` · `Cloudflare Workers` · `WXT` · `Playwright`
 
-- **Shop Management System** - It is a system for shop management. It is built to manage stocks, sales and accounting. It has a barcode generating and scanning feature.
+### Zoiro · a production-grade restaurant POS *(led; private — available on request)*
+A **Rails 8 API + React/TypeScript** point-of-sale system I led (86% of commits). Recipe-based inventory that **can't oversell under concurrent orders** — proven by multi-threaded race tests using pessimistic DB locking — with a guarded order state machine and real-time multi-terminal sync over ActionCable. **1,150+ automated tests**, full CI/CD (Brakeman, RuboCop, bundler-audit).
+<br>`Rails 8` · `React` · `TypeScript` · `ActionCable` · `MySQL`
 
-Please visit the public repositories to view the specific changes and contributions I made.
+### Open-source contributions *(merged, verifiable)*
+**8 merged PRs** into public Ruby projects, including non-trivial refactors:
+- [**foobara/foobara**](https://github.com/foobara/foobara/pulls?q=is%3Apr+author%3Asherazp995+is%3Amerged) — 5 PRs (e.g. *eliminate `.foobara_delegate` usages*, manifest API renames)
+- [**foobara/rails-command-connector**](https://github.com/foobara/rails-command-connector/pull/2) — authored an auto-instantiating `RailsCommandConnector`
+- [**leandrosardi/blackops**](https://github.com/leandrosardi/blackops/pulls?q=is%3Apr+author%3Asherazp995+is%3Amerged) — 2 PRs (file handling + single-binary packaging)
 
-## Skills
+### Contributor @ [FlukeBase](https://flukebase.me) · AI-agent platform + SaaS cluster
+I contribute features across a startup's Rails/Next.js product cluster — an agentic-development platform with a 600+ tool MCP server, plus shipped SaaS apps like [FounderSequence](https://foundersequence.com) and [FeelTrack](https://feeltrack.tech).
 
-- HTML
-- CSS
-- JavaScript
-- jQuery
-- Bootstrap
-- SASS
-- PostgreSQL
-- MySQL
-- MongoDB
-- Angular
-- Node
-- Python
-- PHP
-- Laravel
-- Ruby
-- Ruby on Rails
-- Font Awesome
-- AWS
+## 🛠️ Tech I reach for
 
-## Contact
+| | |
+|---|---|
+| **Languages** | Ruby · TypeScript / JavaScript · Rust · Go · Python · Dart |
+| **Backend** | Rails 8 · Node / Express · PostgreSQL · MySQL · ActionCable |
+| **Frontend** | React · Vue · Next.js · Tailwind CSS |
+| **Systems & tooling** | Compilers (LLVM / Cranelift) · MCP & LLM tooling · Docker · Kamal · Cloudflare Workers |
 
-<div>
-  <a href="https://www.linkedin.com/in/sherazp995" target="_blank">
-    <img src="https://github.com/sherazp995/sherazp995/assets/68340980/c79187e2-4ec6-4f5d-a4de-0b018589a0e1" width="50px" style="border-radius: 10px;" target="_blank">
-  </a>
-  <a href="https://twitter.com/sherazprince15" target="_blank">
-    <img src="https://github.com/sherazp995/sherazp995/assets/68340980/96bf541a-6288-4bc2-9886-ea663353ae6f" width="50px" style="border-radius: 10px;" target="_blank">
-  </a>
-  <a href="https://www.instagram.com/sherazp995" target="_blank">
-    <img src="https://github.com/sherazp995/sherazp995/assets/68340980/a9dea49e-dfa3-4bee-b37e-b7d250047c8b" width="50px" style="border-radius: 10px;" target="_blank">
-  </a>
-  <a href="https://www.facebook.com/sherazp995" target="_blank">
-    <img src="https://github.com/sherazp995/sherazp995/assets/68340980/1e942edd-a387-4373-81ba-4a551ad83bfd" width="50px" style="border-radius: 10px;" target="_blank">
-  </a>
-  <a href="mailto:sherazp995@gmail.com">
-    <img src="https://github.com/sherazp995/sherazp995/assets/68340980/fd2254e7-50a2-4168-b689-73ec5d7e2939" width="50px" style="border-radius: 10px;" target="_blank">
-  </a>
-</div>
+## 📊 GitHub
 
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sherazp995&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sherazp995&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=html,css" alt="top langs">
+</p>
 
-</hr>
-Happy coding!
+---
 
-Sheraz
-
-<!---
-sherazp995/sherazp995 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sherazp995/sherazp995/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sherazp995/sherazp995/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/sherazp995/sherazp995/output/github-contribution-grid-snake.svg">
-</picture>
+<p align="center"><i>Open to remote full-stack / backend / developer-tooling roles. The fastest way to reach me is <a href="mailto:sherazp995@gmail.com">email</a> or <a href="https://www.linkedin.com/in/sherazp995">LinkedIn</a>.</i></p>
