@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <a href="https://sheraz-aurangzaib.vercel.app"><img src="https://img.shields.io/badge/Portfolio-E8B45C?style=flat&logo=vercel&logoColor=black" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/sherazp995"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:sherazp995@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://sheraz-aurangzaib.com"><img src="https://img.shields.io/badge/Portfolio-E8B45C?style=flat&logo=vercel&logoColor=black" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/sheraz-aurangzaib"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:hello@sheraz-aurangzaib.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
   <img src="https://img.shields.io/badge/Lahore,%20PK-open%20to%20remote-2ea44f?style=flat" alt="Location">
 </p>
 
@@ -58,4 +58,4 @@ I contribute features across a startup's Rails/Next.js product cluster: an agent
 
 ---
 
-<p align="center"><i>Open to remote full-stack / backend / developer-tooling roles. The fastest way to reach me is <a href="mailto:sherazp995@gmail.com">email</a> or <a href="https://www.linkedin.com/in/sherazp995">LinkedIn</a>.</i></p>
+<p align="center"><i>Open to remote full-stack / backend / developer-tooling roles. The fastest way to reach me is <a href="mailto:hello@sheraz-aurangzaib.com">email</a> or <a href="https://www.linkedin.com/in/sheraz-aurangzaib">LinkedIn</a>.</i></p>
