@@ -15,7 +15,7 @@ Lahore, Pakistan. Open to remote full-stack, backend and developer-tooling roles
 
 ### [Ruxen](https://github.com/ruxen-lang/ruxen)
 
-A compiled, statically typed programming language with Ruby-style syntax and Rust-style ownership. No garbage collector, native binaries.
+I created Ruxen, a compiled, statically typed programming language with Ruby-style syntax and Rust-style ownership. No garbage collector, native binaries.
 
 - ~145K lines of Rust, ~2,000 tests.
 - Compiler pipeline: lexer, bidirectional type inference, ownership and borrow checker, SSA-style MIR, Cranelift and LLVM-18 backends.
@@ -24,7 +24,7 @@ A compiled, statically typed programming language with Ruby-style syntax and Rus
 
 ### braceful ([live demo](https://braceful.vercel.app))
 
-A browser extension that repairs broken or truncated JSON and opens files of ~100 MB in a virtualized tree. Parsing runs locally in a Web Worker with a streaming tokenizer, off the main thread.
+An offline browser extension that repairs broken or truncated JSON and opens files of ~100 MB in a virtualized tree. Parsing runs locally in a Web Worker with a streaming tokenizer, off the main thread.
 
 - Solo build, source private.
 - ~45K lines of TypeScript across the extension, a Cloudflare Workers billing backend and a marketing site.
@@ -37,7 +37,7 @@ A restaurant point-of-sale system: Rails 8 API with a React/TypeScript frontend.
 
 - Recipe-based inventory with pessimistic database locking, covered by multi-threaded race tests, so concurrent orders can't oversell stock.
 - Order state machine with guarded transitions, and real-time sync across terminals over ActionCable.
-- 1,150+ automated tests. CI runs Brakeman, RuboCop and bundler-audit.
+- 1,150+ automated tests. CI/CD with Brakeman, RuboCop and bundler-audit.
 - Rails 8, React, TypeScript, ActionCable, MySQL.
 
 ## Open source
