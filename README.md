@@ -1,61 +1,66 @@
-<h1 align="center">Sheraz Aurang Zaib</h1>
+# Sheraz Aurang Zaib
 
-<p align="center">
-  <b>Full-Stack Software Engineer · Ruby on Rails + TypeScript</b><br>
-  I build developer tools and ship full-stack products end to end: backend, frontend, and deploy.
-</p>
+Senior Software Engineer at TechieMinions. I work mostly in Ruby on Rails and TypeScript, and also in Rust, compilers and LLM tooling.
 
-<p align="center">
-  <a href="https://sheraz-aurangzaib.com"><img src="https://img.shields.io/badge/Portfolio-E8B45C?style=flat&logo=vercel&logoColor=black" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/sheraz-aurangzaib"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:hello@sheraz-aurangzaib.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
-  <img src="https://img.shields.io/badge/Lahore,%20PK-open%20to%20remote-2ea44f?style=flat" alt="Location">
-</p>
+Lahore, Pakistan. Open to remote full-stack, backend and developer-tooling roles.
 
----
+[Portfolio](https://sheraz-aurangzaib.com) · [LinkedIn](https://www.linkedin.com/in/sheraz-aurangzaib) · [Email](mailto:hello@sheraz-aurangzaib.com)
 
-🔭 **Creator of [Ruxen](https://github.com/ruxen-lang/ruxen)**, a compiled, statically-typed programming language that fuses Ruby's syntax with Rust's ownership model (no GC, native binaries).
+## Experience
 
-I work mostly in **Ruby on Rails** and **TypeScript**, and I'm just as comfortable dropping into systems work (Rust, compilers) and AI/LLM tooling. I like building things that are hard to get right: language type-checkers, concurrency-safe systems, and tools other developers actually use.
+- Senior Software Engineer, TechieMinions (Aug 2025 to present)
+- Software Engineer, Orbix Technologies (Aug 2022 to Jul 2025)
 
-## 🚀 Featured work
+## Projects
 
-### [Ruxen](https://github.com/ruxen-lang/ruxen) · a programming language, built from scratch
-A compiled, statically-typed language (Ruby-style syntax, Rust-style ownership, no garbage collector). A **~145K-line Rust compiler** with a full pipeline (lexer → bidirectional type inference → **ownership/borrow checker** → SSA-style MIR → **dual Cranelift + LLVM-18 backends**), plus an LSP, a JIT REPL, and a 31-module standard library written in the language itself. Dogfooded by three frameworks: a GUI engine ([canvas](https://github.com/ruxen-lang/canvas)), a reactive UI layer ([quiver](https://github.com/ruxen-lang/quiver)), and an async web server ([rondo](https://github.com/ruxen-lang/rondo)).
-<br>`Rust` · `LLVM` · `Cranelift` · `compilers` · `~2,000 tests`
+### [Ruxen](https://github.com/ruxen-lang/ruxen)
 
-### braceful · a shipped, offline JSON dev tool · [live demo](https://braceful.vercel.app)
-A privacy-first browser extension that **repairs broken/truncated JSON** and renders **~100 MB files** in a virtualized tree via a **streaming tokenizer that runs entirely in a Web Worker**, so the tab never freezes and your data never leaves your machine. ~45K LOC TypeScript across the extension, a Cloudflare Workers billing backend, and a marketing site, backed by **1,400+ tests** and a perf-gated CI pipeline. *(Solo build; source private.)*
-<br>`TypeScript` · `Web Workers` · `Cloudflare Workers` · `WXT` · `Playwright`
+A compiled, statically typed programming language with Ruby-style syntax and Rust-style ownership. No garbage collector, native binaries.
 
-### Zoiro · a production-grade restaurant POS *(led; private, available on request)*
-A **Rails 8 API + React/TypeScript** point-of-sale system I led (86% of commits). Recipe-based inventory that **can't oversell under concurrent orders** (proven by multi-threaded race tests using pessimistic DB locking), with a guarded order state machine and real-time multi-terminal sync over ActionCable. **1,150+ automated tests**, full CI/CD (Brakeman, RuboCop, bundler-audit).
-<br>`Rails 8` · `React` · `TypeScript` · `ActionCable` · `MySQL`
+- ~145K lines of Rust, ~2,000 tests.
+- Compiler pipeline: lexer, bidirectional type inference, ownership and borrow checker, SSA-style MIR, Cranelift and LLVM-18 backends.
+- Language server, JIT REPL, and a 31-module standard library written in Ruxen itself.
+- Three frameworks are built on it: [canvas](https://github.com/ruxen-lang/canvas) (GUI engine), [quiver](https://github.com/ruxen-lang/quiver) (reactive UI) and [rondo](https://github.com/ruxen-lang/rondo) (async web server).
 
-### Open-source contributions *(merged, verifiable)*
-**8 merged PRs** into public Ruby projects, including non-trivial refactors:
-- [**foobara/foobara**](https://github.com/foobara/foobara/pulls?q=is%3Apr+author%3Asherazp995+is%3Amerged): 5 PRs (e.g. *eliminate `.foobara_delegate` usages*, manifest API renames)
-- [**foobara/rails-command-connector**](https://github.com/foobara/rails-command-connector/pull/2): authored an auto-instantiating `RailsCommandConnector`
-- [**leandrosardi/blackops**](https://github.com/leandrosardi/blackops/pulls?q=is%3Apr+author%3Asherazp995+is%3Amerged): 2 PRs (file handling + single-binary packaging)
+### braceful ([live demo](https://braceful.vercel.app))
 
-### Contributor @ [FlukeBase](https://flukebase.me) · AI-agent platform + SaaS cluster
-I contribute features across a startup's Rails/Next.js product cluster: an agentic-development platform with a 600+ tool MCP server, plus shipped SaaS apps like [FounderSequence](https://foundersequence.com) and [FeelTrack](https://feeltrack.tech).
+A browser extension that repairs broken or truncated JSON and opens files of ~100 MB in a virtualized tree. Parsing runs locally in a Web Worker with a streaming tokenizer, off the main thread.
 
-## 🛠️ Tech I reach for
+- Solo build, source private.
+- ~45K lines of TypeScript across the extension, a Cloudflare Workers billing backend and a marketing site.
+- 1,400+ tests, with performance checks in CI.
+- TypeScript, Web Workers, Cloudflare Workers, WXT, Playwright.
 
-| | |
+### Zoiro
+
+A restaurant point-of-sale system: Rails 8 API with a React/TypeScript frontend. I led it and wrote 86% of the commits. Source private, available on request.
+
+- Recipe-based inventory with pessimistic database locking, covered by multi-threaded race tests, so concurrent orders can't oversell stock.
+- Order state machine with guarded transitions, and real-time sync across terminals over ActionCable.
+- 1,150+ automated tests. CI runs Brakeman, RuboCop and bundler-audit.
+- Rails 8, React, TypeScript, ActionCable, MySQL.
+
+## Open source
+
+8 merged pull requests to public Ruby projects:
+
+- [foobara/foobara](https://github.com/foobara/foobara/pulls?q=is%3Apr+author%3Asherazp995+is%3Amerged): 5 PRs, including removing `.foobara_delegate` usages and renaming manifest APIs.
+- [foobara/rails-command-connector](https://github.com/foobara/rails-command-connector/pull/2): an auto-instantiating `RailsCommandConnector`.
+- [leandrosardi/blackops](https://github.com/leandrosardi/blackops/pulls?q=is%3Apr+author%3Asherazp995+is%3Amerged): 2 PRs for file handling and single-binary packaging.
+
+## FlukeBase
+
+I contribute features to [FlukeBase](https://flukebase.me), a startup with several Rails and Next.js products: an AI-agent development platform with a 600+ tool MCP server, and the SaaS apps [FounderSequence](https://foundersequence.com) and [FeelTrack](https://feeltrack.tech).
+
+## Tech
+
+| Area | |
 |---|---|
-| **Languages** | Ruby · TypeScript / JavaScript · Rust · Go · Python · Dart |
-| **Backend** | Rails 8 · Node / Express · PostgreSQL · MySQL · ActionCable |
-| **Frontend** | React · Vue · Next.js · Tailwind CSS |
-| **Systems & tooling** | Compilers (LLVM / Cranelift) · MCP & LLM tooling · Docker · Kamal · Cloudflare Workers |
+| Languages | Ruby, TypeScript, JavaScript, Rust, Go, Python, Dart |
+| Backend | Rails 8, Node.js, Express, PostgreSQL, MySQL, ActionCable |
+| Frontend | React, Vue, Next.js, Tailwind CSS |
+| Tooling | LLVM, Cranelift, MCP, Docker, Kamal, Cloudflare Workers |
 
-## 📊 GitHub
+## GitHub stats
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sherazp995/sherazp995/master/github-stats.svg" alt="Sheraz Aurang Zaib · GitHub stats" width="820">
-</p>
-
----
-
-<p align="center"><i>Open to remote full-stack / backend / developer-tooling roles. The fastest way to reach me is <a href="mailto:hello@sheraz-aurangzaib.com">email</a> or <a href="https://www.linkedin.com/in/sheraz-aurangzaib">LinkedIn</a>.</i></p>
+<img src="https://raw.githubusercontent.com/sherazp995/sherazp995/master/github-stats.svg" alt="Sheraz Aurang Zaib GitHub stats" width="820">
